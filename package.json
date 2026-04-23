@@ -1,7 +1,7 @@
 {
   "name": "devops-demo",
   "version": "1.0.0",
-  "description": "Simple DevOps demo",
+  "description": "DevOps demo project",
   "main": "app.js",
   "scripts": {
     "lint": "eslint ."
