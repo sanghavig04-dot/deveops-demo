@@ -1,1 +1,12 @@
-npm init -y
+{
+  "name": "devops-demo",
+  "version": "1.0.0",
+  "description": "Simple DevOps demo",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^10.2.1"
+  }
+}
