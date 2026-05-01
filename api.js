@@ -1,6 +1,10 @@
-function fetchData() {
-  let e = "unused variable"; // ESLint warning
-  console.log("Fetching data...");
-}
+const http = require("http");
 
-fetchData();
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { "Content-Type": "text/plain" });
+  res.end("Hello from DevOps App 🚀");
+});
+
+server.listen(3000, () => {
+  console.log("Server running at http://localhost:3000");
+});
